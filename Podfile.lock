@@ -1,0 +1,195 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - AKDatabaseManager (0.1.0):
+    - FMDB (= 2.6.2)
+  - AKDownloadManager (0.1.0)
+  - AKError (0.1.0):
+    - FMDB (= 2.6.2)
+    - Reachability (= 3.2)
+    - YYModel
+  - AKFoundation (0.1.0)
+  - AKLogKit (0.1.0)
+  - AKModel (0.1.0):
+    - YYModel (= 1.0.4)
+  - AKQQManager (0.1.0):
+    - AKQQSDK
+  - AKQQSDK (0.1.0)
+  - AKSessionManager (0.1.0):
+    - AFNetworking (= 3.1.0)
+  - AKSocketManager (0.1.0):
+    - CocoaAsyncSocket (= 7.5.1)
+  - AKUIKit (0.1.0):
+    - Masonry (= 1.0.1)
+  - AKViewController (0.1.0):
+    - KVOController
+    - Masonry
+    - MBProgressHUD
+    - Reachability
+    - SDWebImage
+  - AKWeChatManager (0.1.0):
+    - AFNetworking
+    - AKWeChatSDK
+  - AKWeChatSDK (0.1.0)
+  - AKWeiboManager (0.1.0):
+    - AKWeiboSDK
+  - AKWeiboSDK (0.1.0)
+  - CocoaAsyncSocket (7.5.1):
+    - CocoaAsyncSocket/GCD (= 7.5.1)
+  - CocoaAsyncSocket/GCD (7.5.1)
+  - Crashlytics (3.8.3):
+    - Fabric (~> 1.6.3)
+  - EVReflection (4.2.0):
+    - EVReflection/Core (= 4.2.0)
+  - EVReflection/Core (4.2.0)
+  - EWDataCenter_Swift (0.1.0):
+    - AKDatabaseManager
+    - AKError
+    - AKSessionManager
+    - AKSocketManager
+    - EWMessageModel_Swift
+    - EWModel_Swift
+  - EWMessageModel_Swift (0.1.0):
+    - SwiftProtobuf
+  - EWModel_Swift (0.1.0):
+    - AKModel
+    - EVReflection
+  - Fabric (1.6.11)
+  - FLEX (2.4.0)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - KVOController (1.2.0)
+  - Masonry (1.0.1)
+  - MBProgressHUD (1.0.0)
+  - Reachability (3.2)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - SwiftProtobuf (0.9.24)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - AKDatabaseManager (from `../AKDatabaseManager`)
+  - AKDownloadManager (from `../AKDownloadManager`)
+  - AKError (from `../AKError`)
+  - AKFoundation (from `../AKFoundation`)
+  - AKLogKit (from `../AKLogKit`)
+  - AKModel (from `../AKModel`)
+  - AKQQManager (from `../AKQQManager`)
+  - AKQQSDK (from `../AKQQSDK`)
+  - AKSessionManager (from `../AKSessionManager`)
+  - AKSocketManager (from `../AKSocketManager`)
+  - AKUIKit (from `../AKUIKit`)
+  - AKViewController (from `../AKViewController`)
+  - AKWeChatManager (from `../AKWeChatManager`)
+  - AKWeChatSDK (from `../AKWeChatSDK`)
+  - AKWeiboManager (from `../AKWeiboManager`)
+  - AKWeiboSDK (from `../AKWeiboSDK`)
+  - Crashlytics
+  - EWDataCenter_Swift (from `../EWDataCenter_Swift`)
+  - EWMessageModel_Swift (from `../EWMessageModel_Swift`)
+  - EWModel_Swift (from `../EWModel_Swift`)
+  - Fabric
+  - FLEX
+  - SwiftProtobuf (from `https://github.com/apple/swift-protobuf.git`, tag `0.9.26`)
+
+EXTERNAL SOURCES:
+  AKDatabaseManager:
+    :path: ../AKDatabaseManager
+  AKDownloadManager:
+    :path: ../AKDownloadManager
+  AKError:
+    :path: ../AKError
+  AKFoundation:
+    :path: ../AKFoundation
+  AKLogKit:
+    :path: ../AKLogKit
+  AKModel:
+    :path: ../AKModel
+  AKQQManager:
+    :path: ../AKQQManager
+  AKQQSDK:
+    :path: ../AKQQSDK
+  AKSessionManager:
+    :path: ../AKSessionManager
+  AKSocketManager:
+    :path: ../AKSocketManager
+  AKUIKit:
+    :path: ../AKUIKit
+  AKViewController:
+    :path: ../AKViewController
+  AKWeChatManager:
+    :path: ../AKWeChatManager
+  AKWeChatSDK:
+    :path: ../AKWeChatSDK
+  AKWeiboManager:
+    :path: ../AKWeiboManager
+  AKWeiboSDK:
+    :path: ../AKWeiboSDK
+  EWDataCenter_Swift:
+    :path: ../EWDataCenter_Swift
+  EWMessageModel_Swift:
+    :path: ../EWMessageModel_Swift
+  EWModel_Swift:
+    :path: ../EWModel_Swift
+  SwiftProtobuf:
+    :git: https://github.com/apple/swift-protobuf.git
+    :tag: 0.9.26
+
+CHECKOUT OPTIONS:
+  SwiftProtobuf:
+    :git: https://github.com/apple/swift-protobuf.git
+    :tag: 0.9.26
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AKDatabaseManager: c7803967a98fc1dfef819e1e4ca99225f8972a45
+  AKDownloadManager: ce24b2394b0021334991630546bde175f2433fa3
+  AKError: fac854d6d533699d8036904e0fd76e4c82816a29
+  AKFoundation: 05f0f635b49e192dbb5c81d87b98781e189f3a04
+  AKLogKit: 8cb4890c1926984b4693b9e4363a188c7c81e80c
+  AKModel: 63a10c17b8ffe687447a5b8c6a9ee1f3a8ff006d
+  AKQQManager: e36206632d8e28a548500f659d13d5f3a4634c90
+  AKQQSDK: 37bb25fcc7dd561a4176550f00ef9f7c691c124f
+  AKSessionManager: 84abc369a5e3939663e87e1359ee657a0822e774
+  AKSocketManager: 5af8eb13082fdb30ae3bfe8e86b65b3353127a12
+  AKUIKit: 891f25c870905602352a4bab887c26329bddceb8
+  AKViewController: aeeafd35158cdbe88070eb380b55828c7de0b5a9
+  AKWeChatManager: bfa74b90b0f08d6d5730d72597009182e31d4869
+  AKWeChatSDK: 9f14334f59207cec199ba957aad1793e0c317f1d
+  AKWeiboManager: d60c6cf8236b73a4ef61557234364797ac74c441
+  AKWeiboSDK: 4227571856d0575337c0de5b33018064404928a8
+  CocoaAsyncSocket: e0a7e93b2ffa411592ff87e58524fbbc9b95b4fa
+  Crashlytics: 2b6dbe138a42395577cfa73dfa1aa7248cadf39e
+  EVReflection: 5ab6ca18e1a0030d3db317349a07ebe84a198245
+  EWDataCenter_Swift: 769f5b2188362579e07a130338636e4d32cf8f38
+  EWMessageModel_Swift: 8da0ae4c4b4a516219054e35ee7f8857b812afa4
+  EWModel_Swift: 8e8fa13dcba91dbd6298c0ad251a8e34d96f51f4
+  Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
+  FLEX: bd1a39e55b56bb413b6f1b34b3c10a0dc44ef079
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
+  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SwiftProtobuf: b91200b46c270f0fdc4e5b2662ae795c177d6209
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: dc0090a190628d531bd7b7613ccffb8f6ce04399
+
+COCOAPODS: 1.1.1
