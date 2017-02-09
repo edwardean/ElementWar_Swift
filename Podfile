@@ -12,6 +12,7 @@ target 'ElementWar_Swift' do
   pod 'Fabric'
   pod 'Crashlytics'
   
+  pod 'SnapKit'
   pod 'SwiftProtobuf', git: 'https://github.com/apple/swift-protobuf.git', :tag => '0.9.26'
   
   pod 'AKFoundation', :path => '../AKFoundation'

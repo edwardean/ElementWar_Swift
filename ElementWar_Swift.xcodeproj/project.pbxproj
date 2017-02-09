@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1D4E25CB1E4AE28600C5789C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E25CA1E4AE28600C5789C /* AppDelegate.swift */; };
-		1D4E25CD1E4AE28600C5789C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E25CC1E4AE28600C5789C /* ViewController.swift */; };
-		1D4E25D01E4AE28600C5789C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D4E25CE1E4AE28600C5789C /* Main.storyboard */; };
 		1D4E25D21E4AE28600C5789C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D4E25D11E4AE28600C5789C /* Assets.xcassets */; };
 		1D4E25D51E4AE28600C5789C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D4E25D31E4AE28600C5789C /* LaunchScreen.storyboard */; };
 		1D4E25E01E4AE28600C5789C /* ElementWar_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E25DF1E4AE28600C5789C /* ElementWar_SwiftTests.swift */; };
@@ -27,7 +25,6 @@
 		1D4E26281E4AE43700C5789C /* MagicianRandomController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E26061E4AE43700C5789C /* MagicianRandomController.swift */; };
 		1D4E26291E4AE43700C5789C /* MagicianRankController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E26071E4AE43700C5789C /* MagicianRankController.swift */; };
 		1D4E262A1E4AE43700C5789C /* MagiciansController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E26081E4AE43700C5789C /* MagiciansController.swift */; };
-		1D4E262B1E4AE43700C5789C /* AKMethaneMolecule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E260A1E4AE43700C5789C /* AKMethaneMolecule.swift */; };
 		1D4E262C1E4AE43700C5789C /* AtomsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E260C1E4AE43700C5789C /* AtomsController.swift */; };
 		1D4E262D1E4AE43700C5789C /* CardDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E260D1E4AE43700C5789C /* CardDetailController.swift */; };
 		1D4E262E1E4AE43700C5789C /* MoleculesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E260E1E4AE43700C5789C /* MoleculesController.swift */; };
@@ -72,8 +69,6 @@
 		1225DD846DA3E00A4D254F12 /* Pods_ElementWar_SwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ElementWar_SwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D4E25C71E4AE28600C5789C /* ElementWar_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElementWar_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D4E25CA1E4AE28600C5789C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1D4E25CC1E4AE28600C5789C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1D4E25CF1E4AE28600C5789C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1D4E25D11E4AE28600C5789C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D4E25D41E4AE28600C5789C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D4E25D61E4AE28600C5789C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -96,7 +91,6 @@
 		1D4E26061E4AE43700C5789C /* MagicianRandomController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagicianRandomController.swift; sourceTree = "<group>"; };
 		1D4E26071E4AE43700C5789C /* MagicianRankController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagicianRankController.swift; sourceTree = "<group>"; };
 		1D4E26081E4AE43700C5789C /* MagiciansController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagiciansController.swift; sourceTree = "<group>"; };
-		1D4E260A1E4AE43700C5789C /* AKMethaneMolecule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKMethaneMolecule.swift; sourceTree = "<group>"; };
 		1D4E260C1E4AE43700C5789C /* AtomsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AtomsController.swift; sourceTree = "<group>"; };
 		1D4E260D1E4AE43700C5789C /* CardDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardDetailController.swift; sourceTree = "<group>"; };
 		1D4E260E1E4AE43700C5789C /* MoleculesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoleculesController.swift; sourceTree = "<group>"; };
@@ -178,13 +172,10 @@
 				1D4E25FD1E4AE43700C5789C /* Battle */,
 				1D4E26021E4AE43700C5789C /* Enter */,
 				1D4E26041E4AE43700C5789C /* Magician */,
-				1D4E26091E4AE43700C5789C /* Molecules */,
 				1D4E260B1E4AE43700C5789C /* Reference */,
 				1D4E26111E4AE43700C5789C /* Setting */,
 				1D4E26181E4AE43700C5789C /* User */,
 				1D4E25CA1E4AE28600C5789C /* AppDelegate.swift */,
-				1D4E25CC1E4AE28600C5789C /* ViewController.swift */,
-				1D4E25CE1E4AE28600C5789C /* Main.storyboard */,
 				1D4E25D11E4AE28600C5789C /* Assets.xcassets */,
 				1D4E25D31E4AE28600C5789C /* LaunchScreen.storyboard */,
 				1D4E25D61E4AE28600C5789C /* Info.plist */,
@@ -249,14 +240,6 @@
 				1D4E26081E4AE43700C5789C /* MagiciansController.swift */,
 			);
 			path = Magician;
-			sourceTree = "<group>";
-		};
-		1D4E26091E4AE43700C5789C /* Molecules */ = {
-			isa = PBXGroup;
-			children = (
-				1D4E260A1E4AE43700C5789C /* AKMethaneMolecule.swift */,
-			);
-			path = Molecules;
 			sourceTree = "<group>";
 		};
 		1D4E260B1E4AE43700C5789C /* Reference */ = {
@@ -438,7 +421,6 @@
 			files = (
 				1D4E25D51E4AE28600C5789C /* LaunchScreen.storyboard in Resources */,
 				1D4E25D21E4AE28600C5789C /* Assets.xcassets in Resources */,
-				1D4E25D01E4AE28600C5789C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -615,10 +597,8 @@
 				1D4E261F1E4AE43700C5789C /* AKFluorineAtom.swift in Sources */,
 				1D4E263B1E4AE43700C5789C /* PortraitController.swift in Sources */,
 				1D4E26201E4AE43700C5789C /* AKHydrogenAtom.swift in Sources */,
-				1D4E262B1E4AE43700C5789C /* AKMethaneMolecule.swift in Sources */,
 				1D4E26231E4AE43700C5789C /* ChallengeController.swift in Sources */,
 				1D4E26321E4AE43700C5789C /* BattleSettingsController.swift in Sources */,
-				1D4E25CD1E4AE28600C5789C /* ViewController.swift in Sources */,
 				1D4E262D1E4AE43700C5789C /* CardDetailController.swift in Sources */,
 				1D4E26251E4AE43700C5789C /* SynthesisController.swift in Sources */,
 				1D4E262A1E4AE43700C5789C /* MagiciansController.swift in Sources */,
@@ -668,14 +648,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1D4E25CE1E4AE28600C5789C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1D4E25CF1E4AE28600C5789C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1D4E25D31E4AE28600C5789C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
