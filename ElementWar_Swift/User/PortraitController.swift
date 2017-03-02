@@ -6,4 +6,8 @@
 //  Copyright © 2017年 ArtisanKid. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class PortraitController: UIViewController {
+    
+}

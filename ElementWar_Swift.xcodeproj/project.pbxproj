@@ -7,19 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D34504C1E59C9F800846965 /* MyProbabilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D34504B1E59C9F800846965 /* MyProbabilityView.swift */; };
+		1D34504E1E59CB5600846965 /* EntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D34504D1E59CB5600846965 /* EntryView.swift */; };
+		1D4915021E566BD600137686 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4915011E566BD600137686 /* CardView.swift */; };
 		1D4E25CB1E4AE28600C5789C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E25CA1E4AE28600C5789C /* AppDelegate.swift */; };
 		1D4E25D21E4AE28600C5789C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D4E25D11E4AE28600C5789C /* Assets.xcassets */; };
 		1D4E25D51E4AE28600C5789C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D4E25D31E4AE28600C5789C /* LaunchScreen.storyboard */; };
 		1D4E25E01E4AE28600C5789C /* ElementWar_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E25DF1E4AE28600C5789C /* ElementWar_SwiftTests.swift */; };
 		1D4E25EB1E4AE28600C5789C /* ElementWar_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E25EA1E4AE28600C5789C /* ElementWar_SwiftUITests.swift */; };
-		1D4E261E1E4AE43700C5789C /* AKCarbonAtom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E25F91E4AE43700C5789C /* AKCarbonAtom.swift */; };
-		1D4E261F1E4AE43700C5789C /* AKFluorineAtom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E25FA1E4AE43700C5789C /* AKFluorineAtom.swift */; };
-		1D4E26201E4AE43700C5789C /* AKHydrogenAtom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E25FB1E4AE43700C5789C /* AKHydrogenAtom.swift */; };
-		1D4E26211E4AE43700C5789C /* AKOxygenAtom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E25FC1E4AE43700C5789C /* AKOxygenAtom.swift */; };
 		1D4E26221E4AE43700C5789C /* BattlePrepareController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E25FE1E4AE43700C5789C /* BattlePrepareController.swift */; };
-		1D4E26231E4AE43700C5789C /* ChallengeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E25FF1E4AE43700C5789C /* ChallengeController.swift */; };
 		1D4E26241E4AE43700C5789C /* RoomController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E26001E4AE43700C5789C /* RoomController.swift */; };
-		1D4E26251E4AE43700C5789C /* SynthesisController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E26011E4AE43700C5789C /* SynthesisController.swift */; };
 		1D4E26261E4AE43700C5789C /* EnterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E26031E4AE43700C5789C /* EnterController.swift */; };
 		1D4E26271E4AE43700C5789C /* MagicianDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E26051E4AE43700C5789C /* MagicianDetailController.swift */; };
 		1D4E26281E4AE43700C5789C /* MagicianRandomController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E26061E4AE43700C5789C /* MagicianRandomController.swift */; };
@@ -32,15 +29,31 @@
 		1D4E26301E4AE43700C5789C /* ScrollsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E26101E4AE43700C5789C /* ScrollsController.swift */; };
 		1D4E26311E4AE43700C5789C /* AboutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E26121E4AE43700C5789C /* AboutController.swift */; };
 		1D4E26321E4AE43700C5789C /* BattleSettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E26131E4AE43700C5789C /* BattleSettingsController.swift */; };
-		1D4E26331E4AE43700C5789C /* PlaySettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E26141E4AE43700C5789C /* PlaySettingController.swift */; };
 		1D4E26341E4AE43700C5789C /* RecordSettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E26151E4AE43700C5789C /* RecordSettingsController.swift */; };
-		1D4E26351E4AE43700C5789C /* UserSettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E26161E4AE43700C5789C /* UserSettingsController.swift */; };
+		1D4E26351E4AE43700C5789C /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E26161E4AE43700C5789C /* SettingsController.swift */; };
 		1D4E26361E4AE43700C5789C /* VolumeSettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E26171E4AE43700C5789C /* VolumeSettingsController.swift */; };
 		1D4E26371E4AE43700C5789C /* EpicsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E26191E4AE43700C5789C /* EpicsController.swift */; };
 		1D4E26381E4AE43700C5789C /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E261A1E4AE43700C5789C /* HomeController.swift */; };
 		1D4E26391E4AE43700C5789C /* MottoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E261B1E4AE43700C5789C /* MottoController.swift */; };
 		1D4E263A1E4AE43700C5789C /* NameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E261C1E4AE43700C5789C /* NameController.swift */; };
 		1D4E263B1E4AE43700C5789C /* PortraitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E261D1E4AE43700C5789C /* PortraitController.swift */; };
+		1D9A51291E65D0D5003FA068 /* CardViewGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9A51281E65D0D5003FA068 /* CardViewGroup.swift */; };
+		1D9A512B1E65D151003FA068 /* ReactantCardViewGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9A512A1E65D151003FA068 /* ReactantCardViewGroup.swift */; };
+		1DD366951E556CBC0094E4A6 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD366941E556CBC0094E4A6 /* NavigationController.swift */; };
+		1DE8B93A1E5C842C00C6326B /* ReactantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE8B9391E5C842C00C6326B /* ReactantView.swift */; };
+		1DE8B93C1E5C844C00C6326B /* ResultantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE8B93B1E5C844C00C6326B /* ResultantView.swift */; };
+		1DE8B93E1E5C849200C6326B /* ConditionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE8B93D1E5C849200C6326B /* ConditionView.swift */; };
+		1DE8B9501E64782300C6326B /* AtomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE8B94F1E64782300C6326B /* AtomView.swift */; };
+		1DE8B9521E64783900C6326B /* MoleculeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE8B9511E64783900C6326B /* MoleculeView.swift */; };
+		1DE8B9541E647DC600C6326B /* ResultantCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE8B9531E647DC600C6326B /* ResultantCardView.swift */; };
+		1DF0FA261E58739D008FCA55 /* CardHeapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF0FA251E58739D008FCA55 /* CardHeapView.swift */; };
+		1DF0FA281E5878E6008FCA55 /* AltarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF0FA271E5878E6008FCA55 /* AltarView.swift */; };
+		1DF0FA2A1E5879D6008FCA55 /* WorkbenchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF0FA291E5879D6008FCA55 /* WorkbenchView.swift */; };
+		1DF0FA2C1E5970D5008FCA55 /* MagicianCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF0FA2B1E5970D5008FCA55 /* MagicianCell.swift */; };
+		1DF0FA2E1E599DBA008FCA55 /* PortraitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF0FA2D1E599DBA008FCA55 /* PortraitView.swift */; };
+		1DF0FA301E59A519008FCA55 /* ProbabilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF0FA2F1E59A519008FCA55 /* ProbabilityView.swift */; };
+		1DF0FA321E59BF3B008FCA55 /* FriendsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF0FA311E59BF3B008FCA55 /* FriendsController.swift */; };
+		1DF0FA341E59BF6D008FCA55 /* OpponentsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF0FA331E59BF6D008FCA55 /* OpponentsController.swift */; };
 		48B35458BCB7C281B084B9C4 /* Pods_ElementWar_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC5A724107B14066D2FB028 /* Pods_ElementWar_Swift.framework */; };
 		68198AB23E629166A21B52FB /* Pods_ElementWar_SwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D27913F383F1EC4685967E5 /* Pods_ElementWar_SwiftTests.framework */; };
 		C1DE5248D2E971C17779F9C5 /* Pods_ElementWar_SwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1225DD846DA3E00A4D254F12 /* Pods_ElementWar_SwiftUITests.framework */; };
@@ -67,6 +80,10 @@
 		06B622BCCE5E1602DAA19DA5 /* Pods-ElementWar_SwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElementWar_SwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ElementWar_SwiftUITests/Pods-ElementWar_SwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		0EA321EE2D2B0F325B4939AF /* Pods-ElementWar_SwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElementWar_SwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ElementWar_SwiftUITests/Pods-ElementWar_SwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 		1225DD846DA3E00A4D254F12 /* Pods_ElementWar_SwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ElementWar_SwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D0DA7131E51B8950096D8F7 /* ElementWar_Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ElementWar_Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		1D34504B1E59C9F800846965 /* MyProbabilityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProbabilityView.swift; sourceTree = "<group>"; };
+		1D34504D1E59CB5600846965 /* EntryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryView.swift; sourceTree = "<group>"; };
+		1D4915011E566BD600137686 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		1D4E25C71E4AE28600C5789C /* ElementWar_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElementWar_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D4E25CA1E4AE28600C5789C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1D4E25D11E4AE28600C5789C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -78,14 +95,8 @@
 		1D4E25E61E4AE28600C5789C /* ElementWar_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElementWar_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D4E25EA1E4AE28600C5789C /* ElementWar_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementWar_SwiftUITests.swift; sourceTree = "<group>"; };
 		1D4E25EC1E4AE28600C5789C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1D4E25F91E4AE43700C5789C /* AKCarbonAtom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKCarbonAtom.swift; sourceTree = "<group>"; };
-		1D4E25FA1E4AE43700C5789C /* AKFluorineAtom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKFluorineAtom.swift; sourceTree = "<group>"; };
-		1D4E25FB1E4AE43700C5789C /* AKHydrogenAtom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKHydrogenAtom.swift; sourceTree = "<group>"; };
-		1D4E25FC1E4AE43700C5789C /* AKOxygenAtom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKOxygenAtom.swift; sourceTree = "<group>"; };
 		1D4E25FE1E4AE43700C5789C /* BattlePrepareController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BattlePrepareController.swift; sourceTree = "<group>"; };
-		1D4E25FF1E4AE43700C5789C /* ChallengeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeController.swift; sourceTree = "<group>"; };
 		1D4E26001E4AE43700C5789C /* RoomController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomController.swift; sourceTree = "<group>"; };
-		1D4E26011E4AE43700C5789C /* SynthesisController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SynthesisController.swift; sourceTree = "<group>"; };
 		1D4E26031E4AE43700C5789C /* EnterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterController.swift; sourceTree = "<group>"; };
 		1D4E26051E4AE43700C5789C /* MagicianDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagicianDetailController.swift; sourceTree = "<group>"; };
 		1D4E26061E4AE43700C5789C /* MagicianRandomController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagicianRandomController.swift; sourceTree = "<group>"; };
@@ -98,15 +109,31 @@
 		1D4E26101E4AE43700C5789C /* ScrollsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollsController.swift; sourceTree = "<group>"; };
 		1D4E26121E4AE43700C5789C /* AboutController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutController.swift; sourceTree = "<group>"; };
 		1D4E26131E4AE43700C5789C /* BattleSettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BattleSettingsController.swift; sourceTree = "<group>"; };
-		1D4E26141E4AE43700C5789C /* PlaySettingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySettingController.swift; sourceTree = "<group>"; };
 		1D4E26151E4AE43700C5789C /* RecordSettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordSettingsController.swift; sourceTree = "<group>"; };
-		1D4E26161E4AE43700C5789C /* UserSettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSettingsController.swift; sourceTree = "<group>"; };
+		1D4E26161E4AE43700C5789C /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 		1D4E26171E4AE43700C5789C /* VolumeSettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VolumeSettingsController.swift; sourceTree = "<group>"; };
 		1D4E26191E4AE43700C5789C /* EpicsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpicsController.swift; sourceTree = "<group>"; };
 		1D4E261A1E4AE43700C5789C /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		1D4E261B1E4AE43700C5789C /* MottoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MottoController.swift; sourceTree = "<group>"; };
 		1D4E261C1E4AE43700C5789C /* NameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameController.swift; sourceTree = "<group>"; };
 		1D4E261D1E4AE43700C5789C /* PortraitController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortraitController.swift; sourceTree = "<group>"; };
+		1D9A51281E65D0D5003FA068 /* CardViewGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardViewGroup.swift; sourceTree = "<group>"; };
+		1D9A512A1E65D151003FA068 /* ReactantCardViewGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReactantCardViewGroup.swift; sourceTree = "<group>"; };
+		1DD366941E556CBC0094E4A6 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		1DE8B9391E5C842C00C6326B /* ReactantView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReactantView.swift; sourceTree = "<group>"; };
+		1DE8B93B1E5C844C00C6326B /* ResultantView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultantView.swift; sourceTree = "<group>"; };
+		1DE8B93D1E5C849200C6326B /* ConditionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConditionView.swift; sourceTree = "<group>"; };
+		1DE8B94F1E64782300C6326B /* AtomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AtomView.swift; sourceTree = "<group>"; };
+		1DE8B9511E64783900C6326B /* MoleculeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoleculeView.swift; sourceTree = "<group>"; };
+		1DE8B9531E647DC600C6326B /* ResultantCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultantCardView.swift; sourceTree = "<group>"; };
+		1DF0FA251E58739D008FCA55 /* CardHeapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardHeapView.swift; sourceTree = "<group>"; };
+		1DF0FA271E5878E6008FCA55 /* AltarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AltarView.swift; sourceTree = "<group>"; };
+		1DF0FA291E5879D6008FCA55 /* WorkbenchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkbenchView.swift; sourceTree = "<group>"; };
+		1DF0FA2B1E5970D5008FCA55 /* MagicianCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagicianCell.swift; sourceTree = "<group>"; };
+		1DF0FA2D1E599DBA008FCA55 /* PortraitView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortraitView.swift; sourceTree = "<group>"; };
+		1DF0FA2F1E59A519008FCA55 /* ProbabilityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProbabilityView.swift; sourceTree = "<group>"; };
+		1DF0FA311E59BF3B008FCA55 /* FriendsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsController.swift; sourceTree = "<group>"; };
+		1DF0FA331E59BF6D008FCA55 /* OpponentsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpponentsController.swift; sourceTree = "<group>"; };
 		2F45AF1D71525F367B9B449E /* Pods-ElementWar_SwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElementWar_SwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ElementWar_SwiftTests/Pods-ElementWar_SwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		4BD2394FF4988E817E7F4FD1 /* Pods-ElementWar_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElementWar_Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ElementWar_Swift/Pods-ElementWar_Swift.debug.xcconfig"; sourceTree = "<group>"; };
 		4D27913F383F1EC4685967E5 /* Pods_ElementWar_SwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ElementWar_SwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -168,7 +195,7 @@
 		1D4E25C91E4AE28600C5789C /* ElementWar_Swift */ = {
 			isa = PBXGroup;
 			children = (
-				1D4E25F81E4AE43700C5789C /* Atoms */,
+				1DD366941E556CBC0094E4A6 /* NavigationController.swift */,
 				1D4E25FD1E4AE43700C5789C /* Battle */,
 				1D4E26021E4AE43700C5789C /* Enter */,
 				1D4E26041E4AE43700C5789C /* Magician */,
@@ -179,6 +206,7 @@
 				1D4E25D11E4AE28600C5789C /* Assets.xcassets */,
 				1D4E25D31E4AE28600C5789C /* LaunchScreen.storyboard */,
 				1D4E25D61E4AE28600C5789C /* Info.plist */,
+				1D0DA7131E51B8950096D8F7 /* ElementWar_Swift-Bridging-Header.h */,
 			);
 			path = ElementWar_Swift;
 			sourceTree = "<group>";
@@ -201,24 +229,21 @@
 			path = ElementWar_SwiftUITests;
 			sourceTree = "<group>";
 		};
-		1D4E25F81E4AE43700C5789C /* Atoms */ = {
-			isa = PBXGroup;
-			children = (
-				1D4E25F91E4AE43700C5789C /* AKCarbonAtom.swift */,
-				1D4E25FA1E4AE43700C5789C /* AKFluorineAtom.swift */,
-				1D4E25FB1E4AE43700C5789C /* AKHydrogenAtom.swift */,
-				1D4E25FC1E4AE43700C5789C /* AKOxygenAtom.swift */,
-			);
-			path = Atoms;
-			sourceTree = "<group>";
-		};
 		1D4E25FD1E4AE43700C5789C /* Battle */ = {
 			isa = PBXGroup;
 			children = (
 				1D4E25FE1E4AE43700C5789C /* BattlePrepareController.swift */,
-				1D4E25FF1E4AE43700C5789C /* ChallengeController.swift */,
 				1D4E26001E4AE43700C5789C /* RoomController.swift */,
-				1D4E26011E4AE43700C5789C /* SynthesisController.swift */,
+				1D4915011E566BD600137686 /* CardView.swift */,
+				1DF0FA251E58739D008FCA55 /* CardHeapView.swift */,
+				1DF0FA271E5878E6008FCA55 /* AltarView.swift */,
+				1DF0FA291E5879D6008FCA55 /* WorkbenchView.swift */,
+				1DE8B9391E5C842C00C6326B /* ReactantView.swift */,
+				1DE8B93B1E5C844C00C6326B /* ResultantView.swift */,
+				1DE8B93D1E5C849200C6326B /* ConditionView.swift */,
+				1DE8B9531E647DC600C6326B /* ResultantCardView.swift */,
+				1D9A51281E65D0D5003FA068 /* CardViewGroup.swift */,
+				1D9A512A1E65D151003FA068 /* ReactantCardViewGroup.swift */,
 			);
 			path = Battle;
 			sourceTree = "<group>";
@@ -238,6 +263,10 @@
 				1D4E26061E4AE43700C5789C /* MagicianRandomController.swift */,
 				1D4E26071E4AE43700C5789C /* MagicianRankController.swift */,
 				1D4E26081E4AE43700C5789C /* MagiciansController.swift */,
+				1DF0FA311E59BF3B008FCA55 /* FriendsController.swift */,
+				1DF0FA331E59BF6D008FCA55 /* OpponentsController.swift */,
+				1DF0FA2B1E5970D5008FCA55 /* MagicianCell.swift */,
+				1DF0FA2F1E59A519008FCA55 /* ProbabilityView.swift */,
 			);
 			path = Magician;
 			sourceTree = "<group>";
@@ -246,10 +275,12 @@
 			isa = PBXGroup;
 			children = (
 				1D4E260C1E4AE43700C5789C /* AtomsController.swift */,
+				1DE8B94F1E64782300C6326B /* AtomView.swift */,
 				1D4E260D1E4AE43700C5789C /* CardDetailController.swift */,
 				1D4E260E1E4AE43700C5789C /* MoleculesController.swift */,
 				1D4E260F1E4AE43700C5789C /* ScrollDetailController.swift */,
 				1D4E26101E4AE43700C5789C /* ScrollsController.swift */,
+				1DE8B9511E64783900C6326B /* MoleculeView.swift */,
 			);
 			path = Reference;
 			sourceTree = "<group>";
@@ -259,9 +290,8 @@
 			children = (
 				1D4E26121E4AE43700C5789C /* AboutController.swift */,
 				1D4E26131E4AE43700C5789C /* BattleSettingsController.swift */,
-				1D4E26141E4AE43700C5789C /* PlaySettingController.swift */,
 				1D4E26151E4AE43700C5789C /* RecordSettingsController.swift */,
-				1D4E26161E4AE43700C5789C /* UserSettingsController.swift */,
+				1D4E26161E4AE43700C5789C /* SettingsController.swift */,
 				1D4E26171E4AE43700C5789C /* VolumeSettingsController.swift */,
 			);
 			path = Setting;
@@ -275,6 +305,9 @@
 				1D4E261B1E4AE43700C5789C /* MottoController.swift */,
 				1D4E261C1E4AE43700C5789C /* NameController.swift */,
 				1D4E261D1E4AE43700C5789C /* PortraitController.swift */,
+				1DF0FA2D1E599DBA008FCA55 /* PortraitView.swift */,
+				1D34504B1E59C9F800846965 /* MyProbabilityView.swift */,
+				1D34504D1E59CB5600846965 /* EntryView.swift */,
 			);
 			path = User;
 			sourceTree = "<group>";
@@ -380,6 +413,7 @@
 					1D4E25C61E4AE28600C5789C = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = HCU65H62VB;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					1D4E25DA1E4AE28600C5789C = {
@@ -583,36 +617,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DF0FA2A1E5879D6008FCA55 /* WorkbenchView.swift in Sources */,
 				1D4E262E1E4AE43700C5789C /* MoleculesController.swift in Sources */,
+				1D9A51291E65D0D5003FA068 /* CardViewGroup.swift in Sources */,
+				1DE8B9541E647DC600C6326B /* ResultantCardView.swift in Sources */,
+				1DF0FA341E59BF6D008FCA55 /* OpponentsController.swift in Sources */,
+				1D4915021E566BD600137686 /* CardView.swift in Sources */,
+				1DD366951E556CBC0094E4A6 /* NavigationController.swift in Sources */,
 				1D4E26291E4AE43700C5789C /* MagicianRankController.swift in Sources */,
+				1DE8B93E1E5C849200C6326B /* ConditionView.swift in Sources */,
+				1D34504C1E59C9F800846965 /* MyProbabilityView.swift in Sources */,
 				1D4E263A1E4AE43700C5789C /* NameController.swift in Sources */,
-				1D4E26211E4AE43700C5789C /* AKOxygenAtom.swift in Sources */,
 				1D4E26381E4AE43700C5789C /* HomeController.swift in Sources */,
-				1D4E26351E4AE43700C5789C /* UserSettingsController.swift in Sources */,
+				1DF0FA2E1E599DBA008FCA55 /* PortraitView.swift in Sources */,
+				1D4E26351E4AE43700C5789C /* SettingsController.swift in Sources */,
 				1D4E26371E4AE43700C5789C /* EpicsController.swift in Sources */,
 				1D4E26271E4AE43700C5789C /* MagicianDetailController.swift in Sources */,
 				1D4E26241E4AE43700C5789C /* RoomController.swift in Sources */,
+				1DF0FA301E59A519008FCA55 /* ProbabilityView.swift in Sources */,
 				1D4E262C1E4AE43700C5789C /* AtomsController.swift in Sources */,
+				1DF0FA2C1E5970D5008FCA55 /* MagicianCell.swift in Sources */,
 				1D4E26361E4AE43700C5789C /* VolumeSettingsController.swift in Sources */,
-				1D4E261F1E4AE43700C5789C /* AKFluorineAtom.swift in Sources */,
+				1DF0FA321E59BF3B008FCA55 /* FriendsController.swift in Sources */,
 				1D4E263B1E4AE43700C5789C /* PortraitController.swift in Sources */,
-				1D4E26201E4AE43700C5789C /* AKHydrogenAtom.swift in Sources */,
-				1D4E26231E4AE43700C5789C /* ChallengeController.swift in Sources */,
+				1DE8B93C1E5C844C00C6326B /* ResultantView.swift in Sources */,
+				1DE8B9521E64783900C6326B /* MoleculeView.swift in Sources */,
 				1D4E26321E4AE43700C5789C /* BattleSettingsController.swift in Sources */,
 				1D4E262D1E4AE43700C5789C /* CardDetailController.swift in Sources */,
-				1D4E26251E4AE43700C5789C /* SynthesisController.swift in Sources */,
 				1D4E262A1E4AE43700C5789C /* MagiciansController.swift in Sources */,
 				1D4E26281E4AE43700C5789C /* MagicianRandomController.swift in Sources */,
 				1D4E26301E4AE43700C5789C /* ScrollsController.swift in Sources */,
+				1DE8B9501E64782300C6326B /* AtomView.swift in Sources */,
 				1D4E26221E4AE43700C5789C /* BattlePrepareController.swift in Sources */,
+				1DF0FA281E5878E6008FCA55 /* AltarView.swift in Sources */,
 				1D4E26341E4AE43700C5789C /* RecordSettingsController.swift in Sources */,
 				1D4E26261E4AE43700C5789C /* EnterController.swift in Sources */,
 				1D4E262F1E4AE43700C5789C /* ScrollDetailController.swift in Sources */,
-				1D4E261E1E4AE43700C5789C /* AKCarbonAtom.swift in Sources */,
+				1DE8B93A1E5C842C00C6326B /* ReactantView.swift in Sources */,
+				1DF0FA261E58739D008FCA55 /* CardHeapView.swift in Sources */,
 				1D4E25CB1E4AE28600C5789C /* AppDelegate.swift in Sources */,
-				1D4E26331E4AE43700C5789C /* PlaySettingController.swift in Sources */,
 				1D4E26311E4AE43700C5789C /* AboutController.swift in Sources */,
+				1D9A512B1E65D151003FA068 /* ReactantCardViewGroup.swift in Sources */,
 				1D4E26391E4AE43700C5789C /* MottoController.swift in Sources */,
+				1D34504E1E59CB5600846965 /* EntryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -757,11 +804,105 @@
 			baseConfigurationReference = 4BD2394FF4988E817E7F4FD1 /* Pods-ElementWar_Swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = HCU65H62VB;
 				INFOPLIST_FILE = ElementWar_Swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/../../AKWeChatSDK/AKWeChatSDK/Classes\"",
+					"\"${PODS_ROOT}/../../AKWeiboSDK/AKWeiboSDK/Classes\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"z\"",
+					"-l\"sqlite3\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-l\"WeChatSDK\"",
+					"-l\"WeiboSDK\"",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"AKDatabaseManager\"",
+					"-framework",
+					"\"AKDownloadManager\"",
+					"-framework",
+					"\"AKError\"",
+					"-framework",
+					"\"AKFoundation\"",
+					"-framework",
+					"\"AKLogKit\"",
+					"-framework",
+					"\"AKModel\"",
+					"-framework",
+					"\"AKSessionManager\"",
+					"-framework",
+					"\"AKSocketManager\"",
+					"-framework",
+					"\"AKUIKit\"",
+					"-framework",
+					"\"AKViewController\"",
+					"-framework",
+					"\"AKWeChatManager\"",
+					"-framework",
+					"\"AKWeChatSDK\"",
+					"-framework",
+					"\"BFKit\"",
+					"-framework",
+					"\"BlocksKit\"",
+					"-framework",
+					"\"CocoaAsyncSocket\"",
+					"-framework",
+					"\"Crashlytics\"",
+					"-framework",
+					"\"EVReflection\"",
+					"-framework",
+					"\"EWDataCenter_Swift\"",
+					"-framework",
+					"\"EWMessageModel_Swift\"",
+					"-framework",
+					"\"EWModel_Swift\"",
+					"-framework",
+					"\"FLEX\"",
+					"-framework",
+					"\"FMDB\"",
+					"-framework",
+					"\"Fabric\"",
+					"-framework",
+					"\"KVOController\"",
+					"-framework",
+					"\"MBProgressHUD\"",
+					"-framework",
+					"\"Masonry\"",
+					"-framework",
+					"\"Reachability\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SnapKit\"",
+					"-framework",
+					"\"SwiftProtobuf\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"YYModel\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.artisankid.ElementWar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ElementWar_Swift/ElementWar_Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -771,11 +912,104 @@
 			baseConfigurationReference = 6E8BCCB006DE346855BDB367 /* Pods-ElementWar_Swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = HCU65H62VB;
 				INFOPLIST_FILE = ElementWar_Swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/../../AKWeChatSDK/AKWeChatSDK/Classes\"",
+					"\"${PODS_ROOT}/../../AKWeiboSDK/AKWeiboSDK/Classes\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"z\"",
+					"-l\"sqlite3\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-l\"WeChatSDK\"",
+					"-l\"WeiboSDK\"",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"AKDatabaseManager\"",
+					"-framework",
+					"\"AKDownloadManager\"",
+					"-framework",
+					"\"AKError\"",
+					"-framework",
+					"\"AKFoundation\"",
+					"-framework",
+					"\"AKLogKit\"",
+					"-framework",
+					"\"AKModel\"",
+					"-framework",
+					"\"AKSessionManager\"",
+					"-framework",
+					"\"AKSocketManager\"",
+					"-framework",
+					"\"AKUIKit\"",
+					"-framework",
+					"\"AKViewController\"",
+					"-framework",
+					"\"AKWeChatManager\"",
+					"-framework",
+					"\"AKWeChatSDK\"",
+					"-framework",
+					"\"BFKit\"",
+					"-framework",
+					"\"BlocksKit\"",
+					"-framework",
+					"\"CocoaAsyncSocket\"",
+					"-framework",
+					"\"Crashlytics\"",
+					"-framework",
+					"\"EVReflection\"",
+					"-framework",
+					"\"EWDataCenter_Swift\"",
+					"-framework",
+					"\"EWMessageModel_Swift\"",
+					"-framework",
+					"\"EWModel_Swift\"",
+					"-framework",
+					"\"FLEX\"",
+					"-framework",
+					"\"FMDB\"",
+					"-framework",
+					"\"Fabric\"",
+					"-framework",
+					"\"KVOController\"",
+					"-framework",
+					"\"MBProgressHUD\"",
+					"-framework",
+					"\"Masonry\"",
+					"-framework",
+					"\"Reachability\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SnapKit\"",
+					"-framework",
+					"\"SwiftProtobuf\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"YYModel\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.artisankid.ElementWar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ElementWar_Swift/ElementWar_Swift-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

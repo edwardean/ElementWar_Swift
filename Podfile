@@ -12,8 +12,17 @@ target 'ElementWar_Swift' do
   pod 'Fabric'
   pod 'Crashlytics'
   
+  pod 'Kingfisher'
+  pod 'SwiftyJSON'
   pod 'SnapKit'
+  pod 'BFKit-Swift' #同BlocksKit
+  pod 'BlocksKit'
+  pod 'AsyncSwift'
   pod 'SwiftProtobuf', git: 'https://github.com/apple/swift-protobuf.git', :tag => '0.9.26'
+  
+  pod 'Toast'
+  pod 'SCLAlertView'
+  pod 'Whisper'
   
   pod 'AKFoundation', :path => '../AKFoundation'
   #pod 'AKFoundation', :git => 'git@github.com:ArtisanKid/AKFoundation.git'

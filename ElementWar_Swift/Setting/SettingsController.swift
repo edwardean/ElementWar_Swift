@@ -1,5 +1,5 @@
 //
-//  BattleSettingsController.swift
+//  SettingsController.swift
 //  ElementWar_Swift
 //
 //  Created by 李翔宇 on 2017/2/7.
@@ -8,21 +8,27 @@
 
 import UIKit
 
-class BattleSettingsController: UIAlertController {
+class SettingsController: UIAlertController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let manualPlayAction = UIAlertAction(title: "我来出牌", style: .default) { (action) in
-            
+        let volumeSettingAction = UIAlertAction(title: "声音设置", style: .default) { (action) in
+            let volumeSettingsController = VolumeSettingsController()
+            self.present(volumeSettingsController, animated: true, completion: nil)
         }
-        self.addAction(manualPlayAction)
+        self.addAction(volumeSettingAction)
         
-        let autoPlayAction = UIAlertAction(title: "自动出牌", style: .default) { (action) in
+        let playSettingAction = UIAlertAction(title: "出牌设置", style: .default) { (action) in
             
         }
-        self.addAction(autoPlayAction)
+        self.addAction(playSettingAction)
+        
+        let aboutAction = UIAlertAction(title: "关于", style: .default) { (action) in
+            
+        }
+        self.addAction(aboutAction)
     }
     
     override func didReceiveMemoryWarning() {

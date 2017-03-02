@@ -47,6 +47,23 @@ PODS:
   - AKWeiboManager (0.1.0):
     - AKWeiboSDK
   - AKWeiboSDK (0.1.0)
+  - AsyncSwift (2.0.1)
+  - BFKit-Swift (2.2.1)
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
   - CocoaAsyncSocket (7.5.1):
     - CocoaAsyncSocket/GCD (= 7.5.1)
   - CocoaAsyncSocket/GCD (7.5.1)
@@ -72,15 +89,20 @@ PODS:
   - FMDB (2.6.2):
     - FMDB/standard (= 2.6.2)
   - FMDB/standard (2.6.2)
+  - Kingfisher (3.3.3)
   - KVOController (1.2.0)
   - Masonry (1.0.1)
   - MBProgressHUD (1.0.0)
   - Reachability (3.2)
+  - SCLAlertView (0.7.0)
   - SDWebImage (4.0.0):
     - SDWebImage/Core (= 4.0.0)
   - SDWebImage/Core (4.0.0)
   - SnapKit (3.1.2)
   - SwiftProtobuf (0.9.24)
+  - SwiftyJSON (3.1.4)
+  - Toast (3.1.0)
+  - Whisper (4.0.0)
   - YYModel (1.0.4)
 
 DEPENDENCIES:
@@ -100,14 +122,22 @@ DEPENDENCIES:
   - AKWeChatSDK (from `../AKWeChatSDK`)
   - AKWeiboManager (from `../AKWeiboManager`)
   - AKWeiboSDK (from `../AKWeiboSDK`)
+  - AsyncSwift
+  - BFKit-Swift
+  - BlocksKit
   - Crashlytics
   - EWDataCenter_Swift (from `../EWDataCenter_Swift`)
   - EWMessageModel_Swift (from `../EWMessageModel_Swift`)
   - EWModel_Swift (from `../EWModel_Swift`)
   - Fabric
   - FLEX
+  - Kingfisher
+  - SCLAlertView
   - SnapKit
   - SwiftProtobuf (from `https://github.com/apple/swift-protobuf.git`, tag `0.9.26`)
+  - SwiftyJSON
+  - Toast
+  - Whisper
 
 EXTERNAL SOURCES:
   AKDatabaseManager:
@@ -175,6 +205,9 @@ SPEC CHECKSUMS:
   AKWeChatSDK: 9f14334f59207cec199ba957aad1793e0c317f1d
   AKWeiboManager: d60c6cf8236b73a4ef61557234364797ac74c441
   AKWeiboSDK: 4227571856d0575337c0de5b33018064404928a8
+  AsyncSwift: 632138e42ead868b53c745fcde9bf733ce1527ad
+  BFKit-Swift: 27b50580c4c5e8c64768876a009121206cd6680d
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
   CocoaAsyncSocket: e0a7e93b2ffa411592ff87e58524fbbc9b95b4fa
   Crashlytics: 2b6dbe138a42395577cfa73dfa1aa7248cadf39e
   EVReflection: 5ab6ca18e1a0030d3db317349a07ebe84a198245
@@ -184,15 +217,20 @@ SPEC CHECKSUMS:
   Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
   FLEX: bd1a39e55b56bb413b6f1b34b3c10a0dc44ef079
   FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  Kingfisher: 893215a42e5c2164e916f69463c68003092b104c
   KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
   Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SCLAlertView: 8a14ffc40590c619e183eed2298b854385f30be1
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
   SnapKit: 12b24f569cb7c143acc9c22b9d91b23e7b1c84a2
   SwiftProtobuf: b91200b46c270f0fdc4e5b2662ae795c177d6209
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  Toast: 14a93686d6c8bfe2727afd342414e35660a8a1f3
+  Whisper: 08be92623311f8e53201e62e17f6d7b9599a4714
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: d94cb189532b424db102bd582fbd51b0f894e4c2
+PODFILE CHECKSUM: 9ab99593697b4933c677868a626363d2fdd6c90f
 
 COCOAPODS: 1.1.1

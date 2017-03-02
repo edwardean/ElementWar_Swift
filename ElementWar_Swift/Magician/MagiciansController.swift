@@ -6,4 +6,19 @@
 //  Copyright © 2017年 ArtisanKid. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class MagiciansController: UIViewController {
+    
+    let friendsController = FriendsController()
+    let opponentsController = OpponentsController()
+
+    let switcher = UISwitch()
+    
+    override func viewDidLoad() {
+        view.addSubview(switcher)
+        
+        self.addChildViewController(friendsController)
+        self.addChildViewController(opponentsController)
+    }
+}

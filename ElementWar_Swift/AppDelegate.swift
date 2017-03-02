@@ -17,11 +17,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         self.window = UIWindow(frame: UIScreen.main.bounds)
-        self.window!.backgroundColor = .white;
-        self.window!.makeKeyAndVisible()
+        self.window?.backgroundColor = .white;
+        self.window?.makeKeyAndVisible()
         
-        let rootViewController = EnterController()
-        self.window!.rootViewController = rootViewController
+        let rootViewController = NavigationController(rootViewController: EnterController())
+        self.window?.rootViewController = rootViewController
         
         return true
     }

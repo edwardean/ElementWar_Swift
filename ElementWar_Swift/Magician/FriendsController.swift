@@ -1,19 +1,18 @@
 //
-//  MagicianRankController.swift
+//  FriendsController.swift
 //  ElementWar_Swift
 //
-//  Created by 李翔宇 on 2017/2/7.
+//  Created by 李翔宇 on 2017/2/19.
 //  Copyright © 2017年 ArtisanKid. All rights reserved.
 //
 
-import UIKit
-import Toast
-import AKError
-import EWDataCenter_Swift
-import EWMessageModel_Swift
-import EWModel_Swift
+/// 好友列表
 
-class MagicianRankController: UITableViewController {
+import UIKit
+import EWModel_Swift
+import EWDataCenter_Swift
+
+class FriendsController: UITableViewController {
     var offset: UInt = 0 /// 偏移量
     var pageSize: UInt = 20 /// 单页条数。默认20
     
@@ -21,7 +20,7 @@ class MagicianRankController: UITableViewController {
     
     override func viewDidLoad() {
         tableView.register(MagicianCell.self, forCellReuseIdentifier: "MagicianCell")
-        requestRank()
+        requestFriends()
     }
     
     override func didReceiveMemoryWarning() {
@@ -30,8 +29,8 @@ class MagicianRankController: UITableViewController {
     }
     
     /// 请求排名
-    private func requestRank() {
-        let service = RankService()
+    private func requestFriends() {
+        let service = FriendService()
         service.offset = offset
         service.pageSize = pageSize
         service.active(Success: { (magicians) in
